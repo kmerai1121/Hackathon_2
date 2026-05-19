@@ -1,0 +1,139 @@
+/* Global Styles */
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+
+    color: #333;
+
+    background-color: #f4f4f4;
+
+    margin: 0;
+    padding: 0;
+
+    font-size: 100%;}
+
+a{
+    text-decoration: none;
+    color: #ff6b6b;}
+
+a:hover{
+    text-decoration: underline;
+    color: #ff9f43;}
+
+header{
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+
+    border-bottom: 4px solid #ff6b6b;}
+
+header h1{
+    margin: 0;
+    font-size: 2.5rem;}
+
+header p{
+    margin-top: 0.5rem;}
+
+/* Navigation Bar */
+nav{
+    background-color: #333;
+    padding: 0.8rem 0;}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;}
+
+nav li{
+    display: inline;
+    margin: 0 1rem;}
+
+nav a{
+    color:#fff;
+    font-weight: bold;}
+
+    nav a:hover{
+    color: #ff9f43;}
+
+.main-content{
+    width: 85%;
+    margin: 2rem auto;}
+
+section{
+    background-color: #fff;
+
+    padding: 1.5rem;
+
+    margin-bottom: 2rem;
+
+    border-radius: 10px;
+
+    border: 2px solid #ddd;}
+
+section h2{
+    color: #ff6b6b;
+
+    border-bottom: 2px solid #ff9f43;
+
+    padding-bottom: 0.5rem;
+
+    margin-bottom: 1rem;}
+
+/* Paragraph Styling */
+section p{
+    text-indent: 1rem;
+
+    margin-bottom: 1rem;
+
+    text-align: justify;}
+
+/* Images */
+img{
+    width: 100%;
+
+    max-width: 500px;
+
+    display: block;
+
+    margin: 1rem auto;
+
+    border-radius: 10px;
+
+    border: 2px solid #ccc;
+}
+
+img:hover{
+    transform: scale(1.03);
+
+    transition: 0.3s ease;
+}
+
+footer{
+    background-color: #222;
+
+    color: #fff;
+
+    text-align: center;
+
+    padding: 1rem 0;
+
+    margin-top: 2rem;}
+
+@media (max-width: 768px){
+
+    nav li{
+        display: block;
+        margin: 1rem 0;
+    }
+
+    .main-content{
+        width: 95%;
+    }
+
+    header h1{
+        font-size: 2rem;
+    }
+}
+
